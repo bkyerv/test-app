@@ -14,7 +14,7 @@ import "./style.css";
     const personEl = document.createElement("div");
     personEl.classList.add("person");
     personEl.innerHTML = `
-  <h2>${person.name}</h2>
+  <h4>${person.name}</h2>
   <p>Height: ${person.height}</p>
   <p>Mass: ${person.mass}</p>
   <p>Hair Color: ${person.hair_color}</p>
